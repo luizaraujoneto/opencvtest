@@ -30,7 +30,7 @@ public class FaceDetection {
         MatOfRect facesDetected = new MatOfRect();
         CascadeClassifier cascadeClassifier = new CascadeClassifier();
         int minFaceSize = Math.round(loadedImage.rows() * 0.1f);
-        cascadeClassifier.load("d:\\projetos\\opencvtest\\src\\resources\\haarcascade_frontalface_alt.xml");
+        cascadeClassifier.load("c:\\projects\\opencvtest\\src\\resources\\haarcascade_frontalface_alt.xml");
         cascadeClassifier.detectMultiScale(loadedImage,
                 facesDetected,
                 1.1,

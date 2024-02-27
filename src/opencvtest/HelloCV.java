@@ -12,7 +12,7 @@ public class HelloCV {
             Mat mat = Mat.eye(3, 3, CvType.CV_8UC1);
             System.out.println("mat = " + mat.dump());
             
-            FaceDetection.detectFace(new String( "D:\\projetos\\TestImg-300x300.jpg" ), new String( "D:\\projetos\\TestImg-300x300-processed.jpg" )); 
+            FaceDetection.detectFace(new String( "C:\\projects\\opencvtest\\test\\opencv-test.jpg" ), new String( "C:\\projects\\opencvtest\\test\\opencv-test-processed.jpg" )); 
             
     }
 }
